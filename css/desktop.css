@@ -1,0 +1,47 @@
+html{
+  font-size: 68%;
+}
+
+body{
+  background-image: url("../images/bg-desktop.svg");
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+header{
+  height:18vh;
+}
+
+main{
+  height: 64vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main-bg-image-container{
+  display: flex;
+}
+
+.main__text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.main__text .main__title,.main__description{
+  text-align: start;
+  margin: 0 auto 0 0;
+  margin-bottom: 26px;
+}
+
+.bg-image{
+  height: 450px;
+  background-size: contain;
+}
+
+footer{
+  height: 18vh;
+}
