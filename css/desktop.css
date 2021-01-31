@@ -37,6 +37,10 @@ main{
   margin-bottom: 26px;
 }
 
+.main__text .main__button{
+  border-radius: 30px;
+}
+
 .bg-image{
   height: 450px;
   background-size: contain;
@@ -44,4 +48,9 @@ main{
 
 footer{
   height: 18vh;
+  justify-content: flex-end;
+}
+
+.sn-links{
+  justify-content: space-evenly;
 }
